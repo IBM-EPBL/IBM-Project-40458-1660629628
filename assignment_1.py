@@ -26,13 +26,14 @@ planet = "Earth"
 diameter = 12742
 
 print( 'The diameter of {} is {} kilometers.' .format(planet,diameter));
-The diameter of Earth is 12742 kilometers.
+The diameter of Earth is 12742 kilometers
 
 """## 3. In this nest dictionary grab the word "hello"
 """
 
 d = {'k1':[1,2,3,{'tricky':['oh','man','inception',{'target':[1,2,3,'hello']}]}]}
 
+d = {'k1':[1,2,3,{'tricky':['oh','man','inception',{'target':[1,2,3,'hello']}]}]}
 print(d['k1'][3]["tricky"][3]['target'][3])
 hello
 
@@ -373,6 +374,13 @@ for val in p:
 2023-10-02 00:00:00
 
 """## 10. Create 2D list to DataFrame
+
+lists = [[1, 'aaa', 22],
+         [2, 'bbb', 25],
+         [3, 'ccc', 24]]
+"""
+
+lists = [[1, 'aaa', 22], [2, 'bbb', 25], [3, 'ccc', 24]]
 
 lists = [[1, 'aaa', 22],
          [2, 'bbb', 25],
